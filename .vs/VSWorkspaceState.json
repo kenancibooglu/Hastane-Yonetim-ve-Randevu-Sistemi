@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Hastane_Yonetim",
+    "\\Hastane_Yonetim\\Hastane_Yonetim"
   ],
+  "SelectedNode": "\\Hastane_Yonetim\\Hastane_Yonetim\\FrmHastaKayit.cs",
   "PreviewInSolutionExplorer": false
 }
