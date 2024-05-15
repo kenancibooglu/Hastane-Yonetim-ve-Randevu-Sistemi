@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\90539\\Desktop\\GitHub\\C# Projects\\Hastane-Yonetim-ve-Randevu-Sistemi\\Hastane_Yonetim\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{02F201C7-AD6C-44B4-9F30-CABFEC6DF818}|Hastane_Yonetim\\Hastane_Yonetim.csproj|c:\\users\\90539\\desktop\\github\\c# projects\\hastane-yonetim-ve-randevu-sistemi\\hastane_yonetim\\hastane_yonetim\\frmhastadetay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{02F201C7-AD6C-44B4-9F30-CABFEC6DF818}|Hastane_Yonetim\\Hastane_Yonetim.csproj|solutionrelative:hastane_yonetim\\frmhastadetay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{02F201C7-AD6C-44B4-9F30-CABFEC6DF818}|Hastane_Yonetim\\Hastane_Yonetim.csproj|c:\\users\\90539\\desktop\\github\\c# projects\\hastane-yonetim-ve-randevu-sistemi\\hastane_yonetim\\hastane_yonetim\\frmsekreterdetay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{02F201C7-AD6C-44B4-9F30-CABFEC6DF818}|Hastane_Yonetim\\Hastane_Yonetim.csproj|solutionrelative:hastane_yonetim\\frmsekreterdetay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02F201C7-AD6C-44B4-9F30-CABFEC6DF818}|Hastane_Yonetim\\Hastane_Yonetim.csproj|c:\\users\\90539\\desktop\\github\\c# projects\\hastane-yonetim-ve-randevu-sistemi\\hastane_yonetim\\hastane_yonetim\\frmhastakayit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{02F201C7-AD6C-44B4-9F30-CABFEC6DF818}|Hastane_Yonetim\\Hastane_Yonetim.csproj|c:\\users\\90539\\desktop\\github\\c# projects\\hastane-yonetim-ve-randevu-sistemi\\hastane_yonetim\\hastane_yonetim\\frmsekretergiris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{02F201C7-AD6C-44B4-9F30-CABFEC6DF818}|Hastane_Yonetim\\Hastane_Yonetim.csproj|solutionrelative:hastane_yonetim\\frmsekretergiris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02F201C7-AD6C-44B4-9F30-CABFEC6DF818}|Hastane_Yonetim\\Hastane_Yonetim.csproj|C:\\Users\\90539\\Desktop\\GitHub\\C# Projects\\Hastane-Yonetim-ve-Randevu-Sistemi\\Hastane_Yonetim\\hastane_yonetim\\frmhastakayit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{02F201C7-AD6C-44B4-9F30-CABFEC6DF818}|Hastane_Yonetim\\Hastane_Yonetim.csproj|solutionrelative:hastane_yonetim\\frmhastakayit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02F201C7-AD6C-44B4-9F30-CABFEC6DF818}|Hastane_Yonetim\\Hastane_Yonetim.csproj|C:\\Users\\90539\\Desktop\\GitHub\\C# Projects\\Hastane-Yonetim-ve-Randevu-Sistemi\\Hastane_Yonetim\\hastane_yonetim\\frmhastagiris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{02F201C7-AD6C-44B4-9F30-CABFEC6DF818}|Hastane_Yonetim\\Hastane_Yonetim.csproj|solutionrelative:hastane_yonetim\\frmhastagiris.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02F201C7-AD6C-44B4-9F30-CABFEC6DF818}|Hastane_Yonetim\\Hastane_Yonetim.csproj|C:\\Users\\90539\\Desktop\\GitHub\\C# Projects\\Hastane-Yonetim-ve-Randevu-Sistemi\\Hastane_Yonetim\\hastane_yonetim\\frmgirisler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{02F201C7-AD6C-44B4-9F30-CABFEC6DF818}|Hastane_Yonetim\\Hastane_Yonetim.csproj|solutionrelative:hastane_yonetim\\frmgirisler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{02F201C7-AD6C-44B4-9F30-CABFEC6DF818}|Hastane_Yonetim\\Hastane_Yonetim.csproj|c:\\users\\90539\\desktop\\github\\c# projects\\hastane-yonetim-ve-randevu-sistemi\\hastane_yonetim\\hastane_yonetim\\frmhastadetay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{02F201C7-AD6C-44B4-9F30-CABFEC6DF818}|Hastane_Yonetim\\Hastane_Yonetim.csproj|solutionrelative:hastane_yonetim\\frmhastadetay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,41 +35,30 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FrmHastaDetay.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\90539\\Desktop\\GitHub\\C# Projects\\Hastane-Yonetim-ve-Randevu-Sistemi\\Hastane_Yonetim\\Hastane_Yonetim\\FrmHastaDetay.cs",
-              "RelativeDocumentMoniker": "Hastane_Yonetim\\FrmHastaDetay.cs",
-              "ToolTip": "C:\\Users\\90539\\Desktop\\GitHub\\C# Projects\\Hastane-Yonetim-ve-Randevu-Sistemi\\Hastane_Yonetim\\Hastane_Yonetim\\FrmHastaDetay.cs [Design]",
-              "RelativeToolTip": "Hastane_Yonetim\\FrmHastaDetay.cs [Design]",
+              "Title": "FrmSekreterDetay.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\90539\\Desktop\\GitHub\\C# Projects\\Hastane-Yonetim-ve-Randevu-Sistemi\\Hastane_Yonetim\\Hastane_Yonetim\\FrmSekreterDetay.cs",
+              "RelativeDocumentMoniker": "Hastane_Yonetim\\FrmSekreterDetay.cs",
+              "ToolTip": "C:\\Users\\90539\\Desktop\\GitHub\\C# Projects\\Hastane-Yonetim-ve-Randevu-Sistemi\\Hastane_Yonetim\\Hastane_Yonetim\\FrmSekreterDetay.cs [Design]",
+              "RelativeToolTip": "Hastane_Yonetim\\FrmSekreterDetay.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T18:49:58.138Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FrmGirisler.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\90539\\Desktop\\GitHub\\C# Projects\\Hastane-Yonetim-ve-Randevu-Sistemi\\Hastane_Yonetim\\Hastane_Yonetim\\FrmGirisler.cs",
-              "RelativeDocumentMoniker": "Hastane_Yonetim\\FrmGirisler.cs",
-              "ToolTip": "C:\\Users\\90539\\Desktop\\GitHub\\C# Projects\\Hastane-Yonetim-ve-Randevu-Sistemi\\Hastane_Yonetim\\Hastane_Yonetim\\FrmGirisler.cs [Design]",
-              "RelativeToolTip": "Hastane_Yonetim\\FrmGirisler.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T18:24:56.652Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmHastaGiris.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\90539\\Desktop\\GitHub\\C# Projects\\Hastane-Yonetim-ve-Randevu-Sistemi\\Hastane_Yonetim\\Hastane_Yonetim\\FrmHastaGiris.cs",
-              "RelativeDocumentMoniker": "Hastane_Yonetim\\FrmHastaGiris.cs",
-              "ToolTip": "C:\\Users\\90539\\Desktop\\GitHub\\C# Projects\\Hastane-Yonetim-ve-Randevu-Sistemi\\Hastane_Yonetim\\Hastane_Yonetim\\FrmHastaGiris.cs [Design]",
-              "RelativeToolTip": "Hastane_Yonetim\\FrmHastaGiris.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T18:34:52.04Z",
+              "WhenOpened": "2024-05-15T19:40:46.241Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "FrmSekreterGiris.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\90539\\Desktop\\GitHub\\C# Projects\\Hastane-Yonetim-ve-Randevu-Sistemi\\Hastane_Yonetim\\Hastane_Yonetim\\FrmSekreterGiris.cs",
+              "RelativeDocumentMoniker": "Hastane_Yonetim\\FrmSekreterGiris.cs",
+              "ToolTip": "C:\\Users\\90539\\Desktop\\GitHub\\C# Projects\\Hastane-Yonetim-ve-Randevu-Sistemi\\Hastane_Yonetim\\Hastane_Yonetim\\FrmSekreterGiris.cs [Design]",
+              "RelativeToolTip": "Hastane_Yonetim\\FrmSekreterGiris.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T19:39:29.245Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "FrmHastaKayit.cs [Design]",
               "DocumentMoniker": "C:\\Users\\90539\\Desktop\\GitHub\\C# Projects\\Hastane-Yonetim-ve-Randevu-Sistemi\\Hastane_Yonetim\\Hastane_Yonetim\\FrmHastaKayit.cs",
               "RelativeDocumentMoniker": "Hastane_Yonetim\\FrmHastaKayit.cs",
@@ -77,6 +66,18 @@
               "RelativeToolTip": "Hastane_Yonetim\\FrmHastaKayit.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-14T18:39:34.313Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmHastaDetay.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\90539\\Desktop\\GitHub\\C# Projects\\Hastane-Yonetim-ve-Randevu-Sistemi\\Hastane_Yonetim\\Hastane_Yonetim\\FrmHastaDetay.cs",
+              "RelativeDocumentMoniker": "Hastane_Yonetim\\FrmHastaDetay.cs",
+              "ToolTip": "C:\\Users\\90539\\Desktop\\GitHub\\C# Projects\\Hastane-Yonetim-ve-Randevu-Sistemi\\Hastane_Yonetim\\Hastane_Yonetim\\FrmHastaDetay.cs [Design]",
+              "RelativeToolTip": "Hastane_Yonetim\\FrmHastaDetay.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T18:49:58.138Z",
               "EditorCaption": " [Design]"
             }
           ]
