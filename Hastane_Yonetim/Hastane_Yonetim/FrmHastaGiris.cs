@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace Hastane_Yonetim
 {
@@ -15,6 +16,32 @@ namespace Hastane_Yonetim
         public FrmHastaGiris()
         {
             InitializeComponent();
+        }
+        
+        sqlbaglantisi bgl = new sqlbaglantisi();
+        private void lnkUyeOl_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            FrmHastaKayit fr = new FrmHastaKayit();
+            fr.Show();
+        }
+
+        private void btnGirisYap_Click(object sender, EventArgs e)
+        {
+            SqlCommand komut = new SqlCommand("Select * From Tbl_Hastalar Where HastaTC=@p1 and HastaSifre=@p2", bgl.baglanti());
+            komut.Parameters.AddWithValue("@p1", mskTC.Text);
+            komut.Parameters.AddWithValue("p2",txtSifre.Text);
+            SqlDataReader dr = komut.ExecuteReader(); // komuttan gelen değerleri oku
+            if(dr.Read())
+            {
+                FrmHastaDetay fr = new FrmHastaDetay();
+                fr.tc = mskTC.Text; // hastadetay'da global alana pbulic olarak tc nesnesini kaydettik ve buradan eriştik.
+                fr.Show();
+                this.Hide();
+            }else
+            {
+                MessageBox.Show("Hatali TC veya Şifre");
+            }
+            bgl.baglanti().Close();
         }
     }
 }

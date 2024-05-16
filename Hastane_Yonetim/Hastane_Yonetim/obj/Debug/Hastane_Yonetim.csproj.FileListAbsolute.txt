@@ -18,3 +18,6 @@ C:\Users\90539\Desktop\GitHub\C# Projects\Hastane-Yonetim-ve-Randevu-Sistemi\Has
 C:\Users\90539\Desktop\GitHub\C# Projects\Hastane-Yonetim-ve-Randevu-Sistemi\Hastane_Yonetim\Hastane_Yonetim\obj\Debug\Hastane_Yonetim.FrmDuyurular.resources
 C:\Users\90539\Desktop\GitHub\C# Projects\Hastane-Yonetim-ve-Randevu-Sistemi\Hastane_Yonetim\Hastane_Yonetim\obj\Debug\Hastane_Yonetim.FrmSekreterDetay.resources
 C:\Users\90539\Desktop\GitHub\C# Projects\Hastane-Yonetim-ve-Randevu-Sistemi\Hastane_Yonetim\Hastane_Yonetim\obj\Debug\Hastane_Yonetim.FrmSekreterGiris.resources
+C:\Users\90539\Desktop\GitHub\C# Projects\Hastane-Yonetim-ve-Randevu-Sistemi\Hastane_Yonetim\Hastane_Yonetim\obj\Debug\Hastane_Yonetim.FrmBrans.resources
+C:\Users\90539\Desktop\GitHub\C# Projects\Hastane-Yonetim-ve-Randevu-Sistemi\Hastane_Yonetim\Hastane_Yonetim\obj\Debug\Hastane_Yonetim.FrmDoktorPaneli.resources
+C:\Users\90539\Desktop\GitHub\C# Projects\Hastane-Yonetim-ve-Randevu-Sistemi\Hastane_Yonetim\Hastane_Yonetim\obj\Debug\Hastane_Yonetim.FrmRandevuListesi.resources

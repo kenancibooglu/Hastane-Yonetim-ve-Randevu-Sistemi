@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmHastaKayit));
             this.txtAd = new System.Windows.Forms.TextBox();
             this.mskTC = new System.Windows.Forms.MaskedTextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -47,16 +48,16 @@
             // 
             this.txtAd.Location = new System.Drawing.Point(127, 30);
             this.txtAd.Name = "txtAd";
-            this.txtAd.Size = new System.Drawing.Size(110, 31);
-            this.txtAd.TabIndex = 8;
+            this.txtAd.Size = new System.Drawing.Size(161, 31);
+            this.txtAd.TabIndex = 1;
             // 
             // mskTC
             // 
             this.mskTC.Location = new System.Drawing.Point(127, 128);
             this.mskTC.Mask = "00000000000";
             this.mskTC.Name = "mskTC";
-            this.mskTC.Size = new System.Drawing.Size(110, 31);
-            this.mskTC.TabIndex = 7;
+            this.mskTC.Size = new System.Drawing.Size(161, 31);
+            this.mskTC.TabIndex = 3;
             this.mskTC.ValidatingType = typeof(int);
             // 
             // label3
@@ -81,15 +82,15 @@
             // 
             this.txtSoyad.Location = new System.Drawing.Point(127, 80);
             this.txtSoyad.Name = "txtSoyad";
-            this.txtSoyad.Size = new System.Drawing.Size(110, 31);
-            this.txtSoyad.TabIndex = 9;
+            this.txtSoyad.Size = new System.Drawing.Size(161, 31);
+            this.txtSoyad.TabIndex = 2;
             // 
             // txtSifre
             // 
             this.txtSifre.Location = new System.Drawing.Point(127, 226);
             this.txtSifre.Name = "txtSifre";
-            this.txtSifre.Size = new System.Drawing.Size(110, 31);
-            this.txtSifre.TabIndex = 11;
+            this.txtSifre.Size = new System.Drawing.Size(161, 31);
+            this.txtSifre.TabIndex = 5;
             // 
             // label1
             // 
@@ -114,8 +115,8 @@
             this.mskTelefon.Location = new System.Drawing.Point(127, 178);
             this.mskTelefon.Mask = "(999) 000-0000";
             this.mskTelefon.Name = "mskTelefon";
-            this.mskTelefon.Size = new System.Drawing.Size(110, 31);
-            this.mskTelefon.TabIndex = 14;
+            this.mskTelefon.Size = new System.Drawing.Size(161, 31);
+            this.mskTelefon.TabIndex = 4;
             // 
             // label5
             // 
@@ -138,27 +139,33 @@
             // cmbCinsiyet
             // 
             this.cmbCinsiyet.FormattingEnabled = true;
+            this.cmbCinsiyet.Items.AddRange(new object[] {
+            "Erkek\t",
+            "Kadın"});
             this.cmbCinsiyet.Location = new System.Drawing.Point(127, 276);
             this.cmbCinsiyet.Name = "cmbCinsiyet";
-            this.cmbCinsiyet.Size = new System.Drawing.Size(110, 31);
-            this.cmbCinsiyet.TabIndex = 17;
+            this.cmbCinsiyet.Size = new System.Drawing.Size(161, 31);
+            this.cmbCinsiyet.TabIndex = 6;
             // 
             // btnKayit
             // 
             this.btnKayit.ForeColor = System.Drawing.Color.LimeGreen;
-            this.btnKayit.Location = new System.Drawing.Point(151, 324);
+            this.btnKayit.Location = new System.Drawing.Point(127, 329);
             this.btnKayit.Name = "btnKayit";
-            this.btnKayit.Size = new System.Drawing.Size(86, 33);
+            this.btnKayit.Size = new System.Drawing.Size(161, 39);
             this.btnKayit.TabIndex = 18;
             this.btnKayit.Text = "Kayıt";
             this.btnKayit.UseVisualStyleBackColor = true;
+            this.btnKayit.Click += new System.EventHandler(this.btnKayit_Click);
             // 
             // FrmHastaKayit
             // 
+            this.AcceptButton = this.btnKayit;
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.Silver;
-            this.ClientSize = new System.Drawing.Size(290, 380);
+            this.ClientSize = new System.Drawing.Size(333, 380);
             this.Controls.Add(this.btnKayit);
             this.Controls.Add(this.cmbCinsiyet);
             this.Controls.Add(this.label6);
@@ -173,9 +180,11 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(5);
+            this.MaximizeBox = false;
             this.Name = "FrmHastaKayit";
-            this.Text = "FrmHastaKayit";
+            this.Text = "Hasta Kayıt";
             this.ResumeLayout(false);
             this.PerformLayout();
 

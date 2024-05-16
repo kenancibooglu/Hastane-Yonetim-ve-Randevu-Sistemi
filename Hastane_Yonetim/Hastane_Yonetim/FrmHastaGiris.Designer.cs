@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmHastaGiris));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -45,7 +46,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(282, 45);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Hasta Giris Paneli";
+            this.label1.Text = "Hasta Giriş Paneli";
             // 
             // label2
             // 
@@ -70,7 +71,7 @@
             this.mskTC.Location = new System.Drawing.Point(154, 81);
             this.mskTC.Mask = "00000000000";
             this.mskTC.Name = "mskTC";
-            this.mskTC.Size = new System.Drawing.Size(110, 31);
+            this.mskTC.Size = new System.Drawing.Size(130, 31);
             this.mskTC.TabIndex = 3;
             this.mskTC.ValidatingType = typeof(int);
             // 
@@ -78,34 +79,39 @@
             // 
             this.txtSifre.Location = new System.Drawing.Point(154, 143);
             this.txtSifre.Name = "txtSifre";
-            this.txtSifre.Size = new System.Drawing.Size(110, 31);
+            this.txtSifre.Size = new System.Drawing.Size(130, 31);
             this.txtSifre.TabIndex = 4;
+            this.txtSifre.UseSystemPasswordChar = true;
             // 
             // lnkUyeOl
             // 
             this.lnkUyeOl.AutoSize = true;
-            this.lnkUyeOl.Location = new System.Drawing.Point(280, 151);
+            this.lnkUyeOl.Location = new System.Drawing.Point(290, 151);
             this.lnkUyeOl.Name = "lnkUyeOl";
             this.lnkUyeOl.Size = new System.Drawing.Size(62, 23);
             this.lnkUyeOl.TabIndex = 5;
             this.lnkUyeOl.TabStop = true;
             this.lnkUyeOl.Text = "Üye Ol";
+            this.lnkUyeOl.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkUyeOl_LinkClicked);
             // 
             // btnGirisYap
             // 
-            this.btnGirisYap.Location = new System.Drawing.Point(168, 189);
+            this.btnGirisYap.Location = new System.Drawing.Point(202, 192);
             this.btnGirisYap.Name = "btnGirisYap";
-            this.btnGirisYap.Size = new System.Drawing.Size(96, 31);
+            this.btnGirisYap.Size = new System.Drawing.Size(82, 32);
             this.btnGirisYap.TabIndex = 6;
-            this.btnGirisYap.Text = "Giris Yap";
+            this.btnGirisYap.Text = "Giriş";
             this.btnGirisYap.UseVisualStyleBackColor = true;
+            this.btnGirisYap.Click += new System.EventHandler(this.btnGirisYap_Click);
             // 
             // FrmHastaGiris
             // 
+            this.AcceptButton = this.btnGirisYap;
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.Gainsboro;
-            this.ClientSize = new System.Drawing.Size(394, 253);
+            this.ClientSize = new System.Drawing.Size(388, 246);
             this.Controls.Add(this.btnGirisYap);
             this.Controls.Add(this.lnkUyeOl);
             this.Controls.Add(this.txtSifre);
@@ -114,9 +120,11 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(5);
+            this.MaximizeBox = false;
             this.Name = "FrmHastaGiris";
-            this.Text = "FrmHastaGiris";
+            this.Text = "Hasta Giriş Ekranı";
             this.ResumeLayout(false);
             this.PerformLayout();
 

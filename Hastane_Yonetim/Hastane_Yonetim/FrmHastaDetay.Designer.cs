@@ -34,6 +34,7 @@
             this.lblTC = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.lnkBilgiDuzenle = new System.Windows.Forms.LinkLabel();
             this.btnRandevu = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -42,15 +43,14 @@
             this.label5 = new System.Windows.Forms.Label();
             this.cmbBrans = new System.Windows.Forms.ComboBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.lnkBilgiDuzenle = new System.Windows.Forms.LinkLabel();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -122,6 +122,16 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Randevu Paneli";
             // 
+            // lnkBilgiDuzenle
+            // 
+            this.lnkBilgiDuzenle.AutoSize = true;
+            this.lnkBilgiDuzenle.Location = new System.Drawing.Point(111, 360);
+            this.lnkBilgiDuzenle.Name = "lnkBilgiDuzenle";
+            this.lnkBilgiDuzenle.Size = new System.Drawing.Size(147, 23);
+            this.lnkBilgiDuzenle.TabIndex = 2;
+            this.lnkBilgiDuzenle.TabStop = true;
+            this.lnkBilgiDuzenle.Text = "Bilgilerini Düzenle";
+            // 
             // btnRandevu
             // 
             this.btnRandevu.Location = new System.Drawing.Point(124, 312);
@@ -192,6 +202,15 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Randevu Geçmişi";
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView1.Location = new System.Drawing.Point(3, 27);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(475, 150);
+            this.dataGridView1.TabIndex = 0;
+            // 
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.dataGridView2);
@@ -202,15 +221,6 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Aktif Randevular";
             // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 27);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(475, 150);
-            this.dataGridView1.TabIndex = 0;
-            // 
             // dataGridView2
             // 
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -219,16 +229,6 @@
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.Size = new System.Drawing.Size(475, 372);
             this.dataGridView2.TabIndex = 1;
-            // 
-            // lnkBilgiDuzenle
-            // 
-            this.lnkBilgiDuzenle.AutoSize = true;
-            this.lnkBilgiDuzenle.Location = new System.Drawing.Point(111, 360);
-            this.lnkBilgiDuzenle.Name = "lnkBilgiDuzenle";
-            this.lnkBilgiDuzenle.Size = new System.Drawing.Size(147, 23);
-            this.lnkBilgiDuzenle.TabIndex = 2;
-            this.lnkBilgiDuzenle.TabStop = true;
-            this.lnkBilgiDuzenle.Text = "Bilgilerini Düzenle";
             // 
             // FrmHastaDetay
             // 
@@ -243,13 +243,14 @@
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "FrmHastaDetay";
             this.Text = "Hasta Detay";
+            this.Load += new System.EventHandler(this.FrmHastaDetay_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
-            this.groupBox4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.groupBox4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
 
