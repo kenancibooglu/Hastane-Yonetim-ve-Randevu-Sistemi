@@ -191,6 +191,7 @@
             this.cmbBrans.Name = "cmbBrans";
             this.cmbBrans.Size = new System.Drawing.Size(226, 31);
             this.cmbBrans.TabIndex = 2;
+            this.cmbBrans.SelectedIndexChanged += new System.EventHandler(this.cmbBrans_SelectedIndexChanged);
             // 
             // groupBox3
             // 

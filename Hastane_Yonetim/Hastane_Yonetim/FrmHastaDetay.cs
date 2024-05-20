@@ -49,5 +49,18 @@ namespace Hastane_Yonetim
             bgl.baglanti().Close();
 
         }
+
+        private void cmbBrans_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            cmbDoktor.Items.Clear();
+            SqlCommand komut3 = new SqlCommand("Select DoktorAd,DoktorSoyad From Tbl_Doktorlar where DoktorBranş=@p1", bgl.baglanti());
+            komut3.Parameters.AddWithValue("@p1", cmbBrans.Text);
+            SqlDataReader dr3 = komut3.ExecuteReader();
+            while (dr3.Read())
+            {
+                cmbDoktor.Items.Add(dr3[0] + " " + dr3[1]);
+            }
+            bgl.baglanti().Close();
+        }
     }
 }
