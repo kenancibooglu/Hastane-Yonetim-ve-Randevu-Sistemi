@@ -62,5 +62,20 @@ namespace Hastane_Yonetim
             }
             bgl.baglanti().Close();
         }
+
+        private void cmbDoktor_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            DataTable dt = new DataTable();
+            SqlDataAdapter da = new SqlDataAdapter("Select * From Tbl_Randevular where RandevuBrans='" + cmbBrans.Text + "'", bgl.baglanti()); // data gride veri yazdırma.
+            da.Fill(dt);
+            dataGridView2.DataSource = dt;
+        }
+
+        private void lnkBilgiDuzenle_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            FrmBilgiDuzenle fr = new FrmBilgiDuzenle();
+            fr.TCno = lblTC.Text;
+            fr.Show();
+        }
     }
 }

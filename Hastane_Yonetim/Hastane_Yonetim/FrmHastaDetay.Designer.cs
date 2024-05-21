@@ -28,12 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmHastaDetay));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.lblAdSoyad = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.lblTC = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.txtID = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.lnkBilgiDuzenle = new System.Windows.Forms.LinkLabel();
             this.btnRandevu = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
@@ -107,6 +110,8 @@
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.DarkGray;
+            this.groupBox2.Controls.Add(this.txtID);
+            this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.lnkBilgiDuzenle);
             this.groupBox2.Controls.Add(this.btnRandevu);
             this.groupBox2.Controls.Add(this.label7);
@@ -122,21 +127,38 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Randevu Paneli";
             // 
+            // txtID
+            // 
+            this.txtID.Location = new System.Drawing.Point(83, 33);
+            this.txtID.Name = "txtID";
+            this.txtID.Size = new System.Drawing.Size(226, 31);
+            this.txtID.TabIndex = 8;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 38);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(33, 23);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "ID:";
+            // 
             // lnkBilgiDuzenle
             // 
             this.lnkBilgiDuzenle.AutoSize = true;
-            this.lnkBilgiDuzenle.Location = new System.Drawing.Point(111, 360);
+            this.lnkBilgiDuzenle.Location = new System.Drawing.Point(122, 363);
             this.lnkBilgiDuzenle.Name = "lnkBilgiDuzenle";
             this.lnkBilgiDuzenle.Size = new System.Drawing.Size(147, 23);
             this.lnkBilgiDuzenle.TabIndex = 2;
             this.lnkBilgiDuzenle.TabStop = true;
             this.lnkBilgiDuzenle.Text = "Bilgilerini Düzenle";
+            this.lnkBilgiDuzenle.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkBilgiDuzenle_LinkClicked);
             // 
             // btnRandevu
             // 
-            this.btnRandevu.Location = new System.Drawing.Point(124, 312);
+            this.btnRandevu.Location = new System.Drawing.Point(126, 334);
             this.btnRandevu.Name = "btnRandevu";
-            this.btnRandevu.Size = new System.Drawing.Size(123, 32);
+            this.btnRandevu.Size = new System.Drawing.Size(121, 32);
             this.btnRandevu.TabIndex = 5;
             this.btnRandevu.Text = "Randevu Al";
             this.btnRandevu.UseVisualStyleBackColor = true;
@@ -144,7 +166,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(6, 125);
+            this.label7.Location = new System.Drawing.Point(7, 147);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(72, 23);
             this.label7.TabIndex = 6;
@@ -153,7 +175,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(6, 88);
+            this.label6.Location = new System.Drawing.Point(7, 110);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(70, 23);
             this.label6.TabIndex = 5;
@@ -161,7 +183,7 @@
             // 
             // rtbSikayet
             // 
-            this.rtbSikayet.Location = new System.Drawing.Point(82, 122);
+            this.rtbSikayet.Location = new System.Drawing.Point(83, 144);
             this.rtbSikayet.Name = "rtbSikayet";
             this.rtbSikayet.Size = new System.Drawing.Size(226, 184);
             this.rtbSikayet.TabIndex = 4;
@@ -170,15 +192,16 @@
             // cmbDoktor
             // 
             this.cmbDoktor.FormattingEnabled = true;
-            this.cmbDoktor.Location = new System.Drawing.Point(82, 85);
+            this.cmbDoktor.Location = new System.Drawing.Point(83, 107);
             this.cmbDoktor.Name = "cmbDoktor";
             this.cmbDoktor.Size = new System.Drawing.Size(226, 31);
             this.cmbDoktor.TabIndex = 4;
+            this.cmbDoktor.SelectedIndexChanged += new System.EventHandler(this.cmbDoktor_SelectedIndexChanged);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(6, 51);
+            this.label5.Location = new System.Drawing.Point(7, 73);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(59, 23);
             this.label5.TabIndex = 3;
@@ -187,7 +210,7 @@
             // cmbBrans
             // 
             this.cmbBrans.FormattingEnabled = true;
-            this.cmbBrans.Location = new System.Drawing.Point(82, 48);
+            this.cmbBrans.Location = new System.Drawing.Point(83, 70);
             this.cmbBrans.Name = "cmbBrans";
             this.cmbBrans.Size = new System.Drawing.Size(226, 31);
             this.cmbBrans.TabIndex = 2;
@@ -241,6 +264,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "FrmHastaDetay";
             this.Text = "Hasta Detay";
@@ -277,5 +301,7 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.LinkLabel lnkBilgiDuzenle;
+        private System.Windows.Forms.TextBox txtID;
+        private System.Windows.Forms.Label label2;
     }
 }
