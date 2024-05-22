@@ -140,6 +140,7 @@
             this.btnDuyuruOlustur.TabIndex = 1;
             this.btnDuyuruOlustur.Text = "Oluştur";
             this.btnDuyuruOlustur.UseVisualStyleBackColor = true;
+            this.btnDuyuruOlustur.Click += new System.EventHandler(this.btnDuyuruOlustur_Click);
             // 
             // rcDuyuru
             // 
@@ -397,6 +398,7 @@
             this.btnDoktorPanel.TabIndex = 0;
             this.btnDoktorPanel.Text = "Doktor Paneli";
             this.btnDoktorPanel.UseVisualStyleBackColor = true;
+            this.btnDoktorPanel.Click += new System.EventHandler(this.btnDoktorPanel_Click);
             // 
             // FrmSekreterDetay
             // 

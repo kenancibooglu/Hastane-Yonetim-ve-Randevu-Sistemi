@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmDoktorPaneli));
             this.label1 = new System.Windows.Forms.Label();
             this.txtAd = new System.Windows.Forms.TextBox();
             this.cmbBranş = new System.Windows.Forms.ComboBox();
@@ -59,7 +60,7 @@
             this.txtAd.Location = new System.Drawing.Point(110, 35);
             this.txtAd.Name = "txtAd";
             this.txtAd.Size = new System.Drawing.Size(168, 31);
-            this.txtAd.TabIndex = 8;
+            this.txtAd.TabIndex = 1;
             // 
             // cmbBranş
             // 
@@ -67,7 +68,7 @@
             this.cmbBranş.Location = new System.Drawing.Point(110, 133);
             this.cmbBranş.Name = "cmbBranş";
             this.cmbBranş.Size = new System.Drawing.Size(168, 31);
-            this.cmbBranş.TabIndex = 11;
+            this.cmbBranş.TabIndex = 3;
             // 
             // label2
             // 
@@ -111,7 +112,7 @@
             this.mskTC.Mask = "00000000000";
             this.mskTC.Name = "mskTC";
             this.mskTC.Size = new System.Drawing.Size(168, 31);
-            this.mskTC.TabIndex = 16;
+            this.mskTC.TabIndex = 4;
             this.mskTC.ValidatingType = typeof(int);
             // 
             // txtSoyad
@@ -119,22 +120,23 @@
             this.txtSoyad.Location = new System.Drawing.Point(110, 87);
             this.txtSoyad.Name = "txtSoyad";
             this.txtSoyad.Size = new System.Drawing.Size(168, 31);
-            this.txtSoyad.TabIndex = 17;
+            this.txtSoyad.TabIndex = 2;
             // 
             // txtSifre
             // 
             this.txtSifre.Location = new System.Drawing.Point(110, 225);
             this.txtSifre.Name = "txtSifre";
             this.txtSifre.Size = new System.Drawing.Size(168, 31);
-            this.txtSifre.TabIndex = 18;
+            this.txtSifre.TabIndex = 5;
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(302, 35);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(325, 301);
+            this.dataGridView1.Size = new System.Drawing.Size(568, 301);
             this.dataGridView1.TabIndex = 19;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // btnEkle
             // 
@@ -145,6 +147,7 @@
             this.btnEkle.TabIndex = 20;
             this.btnEkle.Text = "Ekle";
             this.btnEkle.UseVisualStyleBackColor = false;
+            this.btnEkle.Click += new System.EventHandler(this.btnEkle_Click);
             // 
             // btnSil
             // 
@@ -155,6 +158,7 @@
             this.btnSil.TabIndex = 21;
             this.btnSil.Text = "Sil";
             this.btnSil.UseVisualStyleBackColor = false;
+            this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
             // 
             // btnGuncelle
             // 
@@ -165,12 +169,15 @@
             this.btnGuncelle.TabIndex = 22;
             this.btnGuncelle.Text = "Güncelle";
             this.btnGuncelle.UseVisualStyleBackColor = false;
+            this.btnGuncelle.Click += new System.EventHandler(this.btnGuncelle_Click);
             // 
             // FrmDoktorPaneli
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(639, 348);
+            this.AutoSize = true;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.ClientSize = new System.Drawing.Size(882, 348);
             this.Controls.Add(this.btnGuncelle);
             this.Controls.Add(this.btnSil);
             this.Controls.Add(this.btnEkle);
@@ -186,9 +193,11 @@
             this.Controls.Add(this.txtAd);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "FrmDoktorPaneli";
-            this.Text = "FrmDoktorPaneli";
+            this.Text = "Doktor Paneli";
+            this.Load += new System.EventHandler(this.FrmDoktorPaneli_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
