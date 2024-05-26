@@ -66,7 +66,7 @@ namespace Hastane_Yonetim
         private void cmbDoktor_SelectedIndexChanged(object sender, EventArgs e)
         {
             DataTable dt = new DataTable();
-            SqlDataAdapter da = new SqlDataAdapter("Select * From Tbl_Randevular where RandevuBrans='" + cmbBrans.Text + "'", bgl.baglanti()); // data gride veri yazdırma.
+            SqlDataAdapter da = new SqlDataAdapter("Select * From Tbl_Randevular where RandevuBrans='" + cmbBrans.Text + "'" + " and  RandevuDoktor='" + cmbDoktor.Text + "' and RandevuDurum=0", bgl.baglanti()); // data gride veri yazdırma.
             da.Fill(dt);
             dataGridView2.DataSource = dt;
         }

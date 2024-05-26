@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace Hastane_Yonetim
 {
@@ -15,6 +16,23 @@ namespace Hastane_Yonetim
         public FrmRandevuListesi()
         {
             InitializeComponent();
+        }
+
+        sqlbaglantisi bgl = new sqlbaglantisi();
+        private void FrmRandevuListesi_Load(object sender, EventArgs e)
+        {
+            DataTable dt = new DataTable(); // dataTable ile datagride verileri çekiyoruz.
+            SqlDataAdapter da = new SqlDataAdapter("Select * From Tbl_Randevular",bgl.baglanti());
+            da.Fill(dt);
+            dataGridView1.DataSource = dt;
+        }
+
+       
+        private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            
+           
+
         }
     }
 }

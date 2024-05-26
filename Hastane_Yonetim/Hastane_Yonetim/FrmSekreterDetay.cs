@@ -98,5 +98,23 @@ namespace Hastane_Yonetim
             FrmDoktorPaneli drp = new FrmDoktorPaneli();
             drp.Show();
         }
+
+        private void btnBransPanel_Click(object sender, EventArgs e)
+        {
+            FrmBrans frb = new FrmBrans();
+            frb.Show();
+        }
+
+        private void btnRandevuList_Click(object sender, EventArgs e)
+        {
+            FrmRandevuListesi fr1 = new FrmRandevuListesi();
+            fr1.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FrmDuyurular duyuru = new FrmDuyurular();
+            duyuru.Show();
+        }
     }
 }
