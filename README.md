@@ -19,7 +19,7 @@
 - Doktor Bilgi Ekranı
 <img src="./ProjectImage/Doktor-Bilgi-1.PNG" alt="">
 
--Duyurular Ekranı
+- Duyurular Ekranı
 <img src="./ProjectImage/Duyurular-1.PNG" alt="">
 
 
